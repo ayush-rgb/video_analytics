@@ -1,6 +1,2 @@
-include video_analytics/*.so
-include video_analytics/__init__.py
-include video_analytics/wrapper.cpython-*.so
 include video_analytics/weights/*.pt
-recursive-include video_analytics/object_detector *.so
-recursive-include video_analytics/object_detector *.py
+recursive-include video_analytics *.py
