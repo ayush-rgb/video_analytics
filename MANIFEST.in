@@ -1,2 +1,2 @@
-include video_analytics/weights/*.pt
+recursive-include video_analytics *.pt
 recursive-include video_analytics *.py
