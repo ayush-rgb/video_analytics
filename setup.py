@@ -1,5 +1,6 @@
 from setuptools import setup, find_packages, Extension
 from Cython.Build import cythonize
+from wheel.bdist_wheel import bdist_wheel as _bdist_wheel
 import os
 
 class BinaryWheel(_bdist_wheel):
